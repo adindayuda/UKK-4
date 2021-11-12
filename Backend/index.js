@@ -5,7 +5,7 @@ const express = require("express"),
     api = "/api/v1"
 app.use(cors())
 const scheduler = require("./scheduler")
-const port = 9090
+const port = 8000
 app.listen(port, () => {
     console.log(`Server run on port ${port}`)
 })
